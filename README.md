@@ -13,6 +13,7 @@ This repository uses a pinned Python environment to ensure reproducible results.
 python -m venv .venv
 source .venv/Scripts/activate
 pip install -r requirements.txt
+```
 
 ### Documentation
 Environment reproducibility is essential for reliable machine learning systems across the full lifecycle, from data preparation to deployment. If Python or library versions differ between environments, the same code can behave inconsistently or fail. This repository addresses that risk by using an isolated Python virtual environment and pinning exact dependency versions in requirements.txt, which defines a clear and reproducible setup.
